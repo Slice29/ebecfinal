@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+.roz
+{
+    color: #D22A9A
+}
+
+.albastru
+{
+    color:#52CDDD
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+body
+{
+    width: 100%;
+     background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box, padding-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    overflow-y: hidden;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge add Firefox */
+  .scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+  }
+
+
+input, label
+{
+   font-family: 'League Spartan', sans-serif;
+}
+
+ /* #titlu_cont
+{
+    transform: translateY(-10rem);
+}  */
+
+#baraMea
+{
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: row;
+}
+
+
+#linii2
+{
+    transform: translateY(-4rem);
+}
+
+@media  screen and (min-width:500px)
+{
+    #mana
+    { 
+        transform: scale(0.001,0.001);
+    }
+}
+
+@media screen and (min-width:800px)
+{
+    #linii1
+    {
+        z-index: 0;
+        transform: translateY(-5rem);
+    }
+}
+
+
+
+ .linii
+{
+    max-height: 35vh;
+    width: 300vh;
+    transform: translateY(-2rem);
+} 
+  
+
+
+#ct
+{
+    font-size: 3rem;
+    
+}
+
+nav
+{
+    z-index: 99;
+    align-items: center;
+    justify-content: center;
+    width:  100%;
+}
+
+.pozaBar
+{
+    flex-basis: 33%;
+    padding: 0rem; /* schimbi cat de mici is oarecum si aici */
+    text-align: center;
+}
+
+.pozaBar img
+{
+
+    max-height: 5rem;
+    max-width: 100%;
+} 
+
+#plm
+{
+    padding: 0rem;
+}
+
+/* .nav-link
+{
+    font-size: 1.5rem;
+    color: white;
+} */
+
+/* #linkBar
+{
+    font-size: 10rem;
+} */
+
+sup
+{
+}
+
+.container img
+{
+}
+
+/* .container img:hover
+{
+    max-height: 90%;
+    background-color: white;
+} */
+
+.scrisNormal
+{
+    font-weight: 400;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+}
+
+@media screen and (min-width:980px)
+{
+        .scrisNormal
+    {
+        font-weight: 400;
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+}
+
+
+.cyan
+{
+    color:#57EFFF;
+}
+
+.mov
+{
+    color:#67308F;
+}
+
+.contact
+{
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+}
+img
+{
+    border-radius: 5%;
+}
+.pozitie
+{
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    color: #D22A9A;
+}
+
+.vizi
+{
+    overflow: hidden;
+}
+
+button
+{
+    z-index: 99;
+    overflow: hidden;
+}
+.bnormal:hover
+{
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+h1
+{
+    overflow: hidden;
+}
+
+nav img:hover
+{
+ filter: brightness(0.5) sepia(0.7) saturate(10000%) hue-rotate(240deg) saturate(60.8%);
+}
+
+
+#mana
+{
+    z-index: 99;
+    height: auto;
+    width: auto;
+    transform: scale(0.9,0.9) translateY(-6rem) translateX(5rem);
+}
+
+
+#navAdv
+{
+    background-color:#1d1d1d;
+}
+
+#navAdv a
+{
+   
+    color:white;
+    font-size: 1.2rem;
+}
+
+#navAdv a:hover
+{
+   
+    color:grey;  
+}
+
