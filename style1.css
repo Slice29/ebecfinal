@@ -100,6 +100,10 @@ input, label
     }
 }
 
+div
+{
+    overflow-y: hidden;
+}
 
 
  .linii
@@ -231,6 +235,16 @@ button
     transition: transform .5s;
 }
 
+a
+{
+    color: white;
+}
+
+a:hover
+{
+    color: #57EFFF;
+}
+
 h1
 {
     overflow: hidden;
@@ -238,7 +252,9 @@ h1
 
 nav img:hover
 {
- filter: brightness(0.5) sepia(0.7) saturate(10000%) hue-rotate(240deg) saturate(60.8%);
+ /* filter: brightness(0.5) sepia(0.7) saturate(10000%) hue-rotate(240deg) saturate(60.8%); */
+ /* filter: invert(23%) sepia(50%) saturate(1759%) hue-rotate(248deg) brightness(94%) contrast(97%)  */
+ filter: brightness(0) saturate(100%) invert(22%) sepia(18%) saturate(5647%) hue-rotate(252deg) brightness(97%) contrast(93%);
 }
 
 
