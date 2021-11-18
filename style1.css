@@ -12,6 +12,8 @@
 }
 
 
+
+
 .roz
 {
     color: #D22A9A
@@ -33,7 +35,7 @@
 body
 {
     width: 100%;
-     background-color: black;
+     background-color:#161616;
     background-position: center;
     background-repeat: no-repeat;
     background-origin: content-box, padding-box; 
@@ -47,6 +49,14 @@ body
 h1,h2,h3,h4,h5,h6
 {
     overflow-y: hidden;
+    font-family:'orbitronmedium';
+}
+
+
+#has1
+{
+    font-weight: 500;
+    font-family:'orbitronmedium';
 }
 
 .scrollbar-hidden::-webkit-scrollbar {
@@ -59,6 +69,11 @@ h1,h2,h3,h4,h5,h6
     scrollbar-width: none; /* Firefox */
   }
 
+
+iframe
+{
+    overflow:scroll;
+}
 
 input, label
 {
@@ -85,11 +100,18 @@ input, label
 
 @media  screen and (min-width:500px)
 {
-    #mana
+    /* #mana
     { 
         transform: scale(0.001,0.001);
-    }
+    } */
 }
+
+#pozik
+{
+    height:auto;
+    width: auto;
+}
+
 
 @media screen and (min-width:800px)
 {
@@ -98,6 +120,10 @@ input, label
         z-index: 0;
         transform: translateY(-5rem);
     }
+   
+
+
+
 }
 
 div
@@ -173,6 +199,22 @@ sup
     background-color: white;
 } */
 
+
+.litere
+{
+    font-size: 3.5rem;
+}
+
+
+h2
+{
+    font-size: 2.7rem;
+}
+
+h3
+{
+    font-size: 2rem;
+}
 .scrisNormal
 {
     font-weight: 400;
@@ -188,6 +230,7 @@ sup
         font-weight: 400;
         padding-left: 15rem;
         padding-right: 15rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -199,7 +242,7 @@ sup
 
 .mov
 {
-    color:#67308F;
+    color:#99308F;
 }
 
 .contact
@@ -238,6 +281,7 @@ button
 a
 {
     color: white;
+    text-decoration: none;
 }
 
 a:hover
