@@ -53,6 +53,8 @@ h1,h2,h3,h4,h5,h6
 }
 
 
+
+
 #has1
 {
     font-weight: 500;
@@ -106,6 +108,55 @@ input, label
     } */
 }
 
+/* @media  screen and (max-width:768px)
+{
+    #inreg
+    {
+        
+        transform:translateY(-35rem) scale(0.6,0.6)  ;
+    }
+}
+
+@media  screen and (max-width:400px)
+{
+    #inreg, iframe
+    {
+        
+        transform:translateY(-40rem) scale(0.5,0.5)  ;
+    }
+}
+
+@media  screen and (max-width:350px)
+{
+    #inreg, iframe
+    {
+        
+        transform:translateY(-43rem) scale(0.4,0.4)  ;
+    }
+
+} */
+
+
+.container1 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+  }
+  
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+
+
 #pozik
 {
     height:auto;
@@ -121,9 +172,6 @@ input, label
         transform: translateY(-5rem);
     }
    
-
-
-
 }
 
 div
